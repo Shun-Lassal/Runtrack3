@@ -11,6 +11,7 @@ body, main {
 header {
   border-bottom:2px solid grey;
   height: 40px;
+  background-color:#F2B958;
 
 }
 
@@ -88,17 +89,23 @@ p#main-p {
 
 section#main-2 {
   height:710px;
+  background-color:#F2B958;
 }
 
-h2{
+h2 {
   text-align:center;
-  padding-top:20px;
+  padding-top:30px;
+  margin-top:0px;
   font-size:30px;
+  color:#4F82D9;
+  text-shadow: 2px 2px 2px black;
 }
 
 h3 {
   text-align:center;
   font-size:30px;
+  color:#4F82D9;
+  text-shadow: 2px 2px 2px black;
 }
 
 section#main-2-1 {
@@ -111,14 +118,20 @@ section#main-2-1 {
 figure {
   flex-grow:1;
   margin:0px;
-  padding-left:60px;
-  padding-bottom:20px;
+  margin-left:40px;
+  width:800px;
+  height: 400px;
+  box-shadow: 0px 0px 12px 2px grey;
+  border: 5px solid white;
 }
 
 figcaption{
   padding-top:20px;
   font-size:25px;
   width:500px;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  text-align:center;
 }
 
 img {
@@ -126,11 +139,11 @@ img {
   height:256px;
   align-content: center;
   padding-left:110px;
+  margin-top:30px;
 }
 
 section#main-2-1-1 {
   flex-grow:3;
-  box-shadow: 0px 0px 10px 2px inset;
   margin-right:40px;
 
 }
@@ -149,4 +162,7 @@ hr#hr3 {
 
 p#main-2p {
   margin:30px;
+  font-size:24px;
+  color:white;
+  text-shadow: 2px 2px 2px black;
 }
